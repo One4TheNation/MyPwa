@@ -18,7 +18,7 @@
 // // TODO: Add logic for a method that gets all the content from the database
 // export const getDb = async () => console.error('getDb not implemented');
 
-//? initdb();
+//* initdb();
 
 import { openDB } from "idb";
 
@@ -41,6 +41,8 @@ const initdb = async () =>
       // The keyPath 'id' will be automatically generated and incremented
       db.createObjectStore(DB_NAME, { keyPath: "id", autoIncrement: true });
       console.log("jate database created");
+      //! Check
+      return db;
     },
   });
 
@@ -98,5 +100,3 @@ export const getDb = async () => {
 
 // Initialize the database when this module is imported
 initdb();
-
-//!
