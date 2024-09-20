@@ -1,10 +1,10 @@
-# MyPwa
+## PWA
 
-Project 19 PWA
+Project 19
 
-![Project Preview](./)
+![Project Preview](./client/src/images/Screen%20Shot%202024-09-19%20at%2011.07.05%20PM.png)
 
-![Render Preview](https://mypwa-actk.onrender.com/)
+[Render Preview](https://mypwa-actk.onrender.com/)
 
 ## Table of Contents
 
